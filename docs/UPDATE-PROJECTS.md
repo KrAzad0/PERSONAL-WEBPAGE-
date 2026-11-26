@@ -49,6 +49,7 @@ All text fields must be nonempty. Links must use `https://` and must not contain
 | `In development` | Actively building a derivation, model, implementation or research record. |
 | `Study` | Learning, literature synthesis or reproduction of established results. |
 | `Available` | A public artifact exists, such as learning notes or an interactive tool. State precisely what is available. |
+| `Preprint` | A manuscript is publicly available as a preprint. |
 | `Completed` | The stated project scope is complete and its described outputs have been checked. This does not itself imply publication, novelty or peer review. |
 
 Cards retain the order of the JSON file, except that the featured project is placed first. To feature another project, set the previous one to `false`. The toroidal-hydrogen project has its own geometry illustration. Featuring a different project gives it a wide text card, without attaching an unrelated illustration. For routine additions, keep `featured` set to `false`.

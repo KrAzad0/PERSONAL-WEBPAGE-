@@ -74,7 +74,7 @@ The visitor page is static: it has no account system, database or in-browser edi
 
 ## Accurate research records
 
-Keep working ideas, educational studies, preliminary outputs and completed work clearly identified. A project entry is not evidence of publication, institutional employment or a validated result. Link to actual public notes, source, notebooks or reports when available. The toroidal project is an ongoing study; the Quantum Mechanics From Scratch entry currently describes the available interactive atlas.
+Keep working ideas, educational studies, preliminary outputs and completed work clearly identified. A project entry is not evidence of publication, institutional employment or a validated result. Link to actual public notes, source, notebooks or reports when available. The featured toroidal project links to a co-authored preprint. The Quantum Mechanics From Scratch entry describes the available interactive atlas.
 
 ## License
 

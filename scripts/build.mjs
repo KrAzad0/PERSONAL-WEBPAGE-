@@ -7,7 +7,7 @@ const readJSON = async name => JSON.parse(await readFile(resolve(root, 'content'
 const profile = await readJSON('profile.json');
 const projects = await readJSON('projects.json');
 const categories = { quantum: 'Quantum physics', mathematics: 'Mathematics', 'open-source': 'Open learning' };
-const statuses = { 'In development': 'development', Scoping: 'scoping', Study: 'study', Available: 'available', Completed: 'available' };
+const statuses = { 'In development': 'development', Scoping: 'scoping', Study: 'study', Preprint: 'available', Available: 'available', Completed: 'available' };
 const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const requireText = (value, label) => { if (typeof value !== 'string' || !value.trim()) throw new Error(`${label} must be a nonempty string.`); };
 const checkURL = (value, label) => {
@@ -66,7 +66,7 @@ const values = {
   EDUCATION: profile.education.map(item=>`<li><div class="education-line"><span>${escape(item.period)}</span><span class="education-state">${escape(item.status)}</span></div><h4>${escape(item.title)}</h4><p class="institution">${escape(item.institution)}</p><p class="education-detail">${escape(item.detail)}</p></li>`).join('\n'),
   TRAINING: profile.training.map(item=>`<li><h4>${escape(item.title)}</h4><p>${escape(item.institution)} · ${escape(item.year)}</p></li>`).join('\n'),
   SKILLS: profile.skills.map(group=>`<div class="skill-group"><h3>${escape(group.title)}</h3><ul>${group.items.map(item=>`<li>${escape(item)}</li>`).join('')}</ul></div>`).join('\n'),
-  SOCIAL_LINKS: profile.links.filter(link=>['GitHub','LinkedIn','ResearchGate'].includes(link.label)).map(externalLink).join('\n')
+  SOCIAL_LINKS: profile.links.map(externalLink).join('\n')
 };
 let html = await readFile(resolve(root,'src/index.html'),'utf8');
 html = html.replace(/\{\{([A-Z_]+)\}\}/g, (_,key) => {

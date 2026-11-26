@@ -6,8 +6,8 @@
   "location": "India",
   "email": "kumarazad9211p@gmail.com",
   "availability": "Open to research internships & early-career opportunities",
-  "shortBio": "an M.Sc. Physics student in Quantum Technology at SRMIST. I explore quantum systems through mathematics and computation.",
-  "about": "I’m pursuing an M.Sc. in Physics with a specialization in Quantum Technology at SRMIST, following a B.Sc. in Physics and an M.Sc. in Mathematics. I’m interested in how mathematical structure shapes physical models: from quantum confinement and differential equations to the geometry of scattering amplitudes. My current work combines literature study, analytical derivations and the development of numerical and symbolic checks.",
+  "shortBio": "an M.Sc. Physics student specializing in Quantum Technology at SRMIST. I use mathematical models and numerical methods to study how confinement and ultrafast light pulses affect quantum systems.",
+  "about": "I’m pursuing an M.Sc. in Physics with a specialization in Quantum Technology at SRMIST. My research interests include electron dynamics in curved geometries, light–matter interaction, and the numerical methods used to model them. In a preprint with Vivek S Babu, I studied how toroidal confinement affects a hydrogenic electron’s energy spectrum and response to attosecond excitation.",
   "interests": [
     {
       "title": "Quantum theory",
@@ -35,12 +35,12 @@
       "institution": "Mangalayatan University · Online",
       "period": "2024–2026",
       "status": "Completed",
-      "detail": "Studies in analysis, algebra, differential geometry, partial differential equations and numerical methods."
+      "detail": "Coursework in analysis, algebra, differential geometry, partial differential equations and numerical methods."
     },
     {
-      "title": "B.Sc. Physics (Honours)",
+      "title": "B.Sc. Physics",
       "institution": "SRM University, Andhra Pradesh",
-      "period": "2021–2024",
+      "period": "2021–Sep 2024",
       "status": "Completed",
       "detail": "Foundations in physics, mathematical methods, laboratory work and computational coursework."
     }
@@ -65,6 +65,21 @@
       "title": "Workshop on Quantum Computation",
       "institution": "IIT Delhi",
       "year": "2024"
+    },
+    {
+      "title": "Qiskit Global Summer School",
+      "institution": "IBM Quantum",
+      "year": "2025"
+    },
+    {
+      "title": "Quantum Diagonalization Algorithms",
+      "institution": "IBM Quantum",
+      "year": "2025"
+    },
+    {
+      "title": "Quantum Computing, Bronze Level",
+      "institution": "QWorld",
+      "year": "2025"
     }
   ],
   "skills": [
@@ -75,7 +90,8 @@
         "NumPy",
         "SciPy",
         "MATLAB",
-        "Mathematica"
+        "Mathematica",
+        "Origin"
       ]
     },
     {
@@ -91,6 +107,7 @@
       "title": "Research tools",
       "items": [
         "LaTeX",
+        "Overleaf",
         "Git",
         "Literature review",
         "Mathematical modelling",
@@ -113,9 +130,17 @@
     },
     {
       "label": "YouTube",
-      "url": "https://www.youtube.com/@thquantum-zero/"
+      "url": "https://www.youtube.com/@thquantum-zero"
+    },
+    {
+      "label": "Substack",
+      "url": "https://substack.com/@kumarazad"
+    },
+    {
+      "label": "ORCID",
+      "url": "https://orcid.org/0009-0002-2965-5839"
     }
   ],
-  "cvUrl": null,
+  "cvUrl": "assets/kumar-azad-cv.pdf",
   "updated": "2026-11-27"
 }
