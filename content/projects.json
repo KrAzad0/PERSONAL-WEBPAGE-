@@ -1,0 +1,89 @@
+[
+  {
+    "id": "toroidal-hydrogen",
+    "title": "Hydrogen in toroidal confinement",
+    "category": "quantum",
+    "status": "In development",
+    "featured": true,
+    "summary": "How does toroidal geometry change a confined hydrogenic system? A developing study of Coulomb-bound states, boundary conditions and a proposed extension to attosecond driving.",
+    "methods": ["Schrödinger equation", "Boundary conditions", "Sparse matrices", "MATLAB"],
+    "progress": "Mathematical formulations and preliminary calculations are documented. The numerical results still require reproducible run configurations and convergence checks.",
+    "nextStep": "Reproduce the field-free model, fix the geometry and Coulomb-centre convention, and test grid convergence before adding a pulse.",
+    "links": [
+      { "label": "Read project notes", "url": "https://krazad0.github.io/research/torus/" },
+      { "label": "Research workspace", "url": "https://krazad0.github.io/research-workspace/" }
+    ]
+  },
+  {
+    "id": "attosecond-dynamics",
+    "title": "Attosecond-driven electron dynamics",
+    "category": "quantum",
+    "status": "Scoping",
+    "featured": false,
+    "summary": "A study plan for electronic transitions under finite electromagnetic pulses, beginning with solvable models and independently reproducible benchmarks.",
+    "methods": ["TDSE", "Dipole interaction", "Perturbation theory", "MATLAB"],
+    "progress": "Benchmark selection and modelling assumptions are being defined; a validated time-dependent simulation is not yet available.",
+    "nextStep": "Benchmark a weak-field hydrogen transition or driven oscillator, then check time-step stability and conservation of probability.",
+    "links": [
+      { "label": "Light–matter notes", "url": "https://krazad0.github.io/light-matter-interaction/" },
+      { "label": "Project registry", "url": "https://github.com/KrAzad0/PROJECT-KUMAR-AZAD-2026-2028/blob/main/workspace/projects.json" }
+    ]
+  },
+  {
+    "id": "positive-geometry",
+    "title": "Positive geometry & canonical forms",
+    "category": "mathematics",
+    "status": "Study",
+    "featured": false,
+    "summary": "Expository notes on canonical forms, boundary residues, positive Grassmannians and the mathematical route to the amplituhedron.",
+    "methods": ["Differential forms", "Residues", "Grassmannians", "Symbolic derivations"],
+    "progress": "Learning notes with interval and triangle examples are available. They synthesize established literature and are not presented as original research.",
+    "nextStep": "Check boundary orientations and residues, then work through a nontrivial Grassmannian example.",
+    "links": [
+      { "label": "Read learning notes", "url": "https://krazad0.github.io/positive-geometry/" }
+    ]
+  },
+  {
+    "id": "differential-equations",
+    "title": "Differential equations & spectral methods",
+    "category": "mathematics",
+    "status": "Study",
+    "featured": false,
+    "summary": "Building analytical and numerical foundations in ODEs, PDEs, Sturm–Liouville problems, Green functions and finite-difference methods.",
+    "methods": ["ODE & PDE", "Sturm–Liouville theory", "Green functions", "Finite differences"],
+    "progress": "Study notes and a benchmark-oriented research plan are available; comparative numerical results remain a development goal.",
+    "nextStep": "Reproduce the heat equation with constant diffusivity and check mesh convergence before studying variable diffusivity.",
+    "links": [
+      { "label": "Read methods notes", "url": "https://krazad0.github.io/differential-equations/" }
+    ]
+  },
+  {
+    "id": "symbolic-quantum-mechanics",
+    "title": "Symbolic quantum mechanics",
+    "category": "mathematics",
+    "status": "Scoping",
+    "featured": false,
+    "summary": "Designing a Mathematica workflow for checking operator identities, eigenvalue equations, special functions and normalization integrals.",
+    "methods": ["Mathematica", "Operator algebra", "Special functions", "Analytical checks"],
+    "progress": "The symbolic workflow is scoped in the research registry. Public reproducible notebooks are a planned deliverable.",
+    "nextStep": "Build a notebook that verifies oscillator commutators and hydrogen radial states, with explicit assumptions and residual checks.",
+    "links": [
+      { "label": "Quantum mechanics notes", "url": "https://krazad0.github.io/quantum-mechanics/" },
+      { "label": "Project registry", "url": "https://github.com/KrAzad0/PROJECT-KUMAR-AZAD-2026-2028/blob/main/workspace/projects.json" }
+    ]
+  },
+  {
+    "id": "quantum-mechanics-from-scratch",
+    "title": "Quantum Mechanics From Scratch",
+    "category": "open-source",
+    "status": "Available",
+    "featured": false,
+    "summary": "An open-source interactive atlas of 41 foundational papers and milestones, tracing quantum mechanics from Planck to Bell.",
+    "methods": ["Literature curation", "HTML & CSS", "JavaScript", "Scientific communication"],
+    "progress": "The atlas source includes paper summaries, central equations, source links, search, era filters and a browser-local reading tracker.",
+    "nextStep": "Continue checking source links and expand the accompanying derivation and reproduction notes as they are completed.",
+    "links": [
+      { "label": "Explore the repository", "url": "https://github.com/KrAzad0/Quantum-Mechanics-From-Scratch" }
+    ]
+  }
+]

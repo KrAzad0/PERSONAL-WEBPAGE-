@@ -1,0 +1,121 @@
+{
+  "name": "Kumar Azad",
+  "initials": "KA",
+  "role": "M.Sc. Physics student · Quantum Technology",
+  "institution": "SRM Institute of Science and Technology",
+  "location": "India",
+  "email": "kumarazad9211p@gmail.com",
+  "availability": "Open to research internships & early-career opportunities",
+  "shortBio": "an M.Sc. Physics student in Quantum Technology at SRMIST. I explore quantum systems through mathematics and computation.",
+  "about": "I’m pursuing an M.Sc. in Physics with a specialization in Quantum Technology at SRMIST, following a B.Sc. in Physics and an M.Sc. in Mathematics. I’m interested in how mathematical structure shapes physical models: from quantum confinement and differential equations to the geometry of scattering amplitudes. My current work combines literature study, analytical derivations and the development of numerical and symbolic checks.",
+  "interests": [
+    {
+      "title": "Quantum theory",
+      "description": "Quantum confinement, atomic systems, light–matter interaction and the assumptions behind their mathematical models."
+    },
+    {
+      "title": "Mathematical physics",
+      "description": "Differential equations, spectral methods, special functions, positive geometry and the structure of physical theories."
+    },
+    {
+      "title": "Scientific computing",
+      "description": "Numerical benchmarks, symbolic calculations and reproducible workflows that connect a derivation to a checkable result."
+    }
+  ],
+  "education": [
+    {
+      "title": "M.Sc. Physics · Quantum Technology",
+      "institution": "SRM Institute of Science and Technology",
+      "period": "2026–2028",
+      "status": "In progress · Expected May 2028",
+      "detail": "Current coursework includes Mathematical Physics, Classical Mechanics and Quantum Mechanics."
+    },
+    {
+      "title": "M.Sc. Mathematics",
+      "institution": "Mangalayatan University · Online",
+      "period": "2024–2026",
+      "status": "Completed",
+      "detail": "Studies in analysis, algebra, differential geometry, partial differential equations and numerical methods."
+    },
+    {
+      "title": "B.Sc. Physics (Honours)",
+      "institution": "SRM University, Andhra Pradesh",
+      "period": "2021–2024",
+      "status": "Completed",
+      "detail": "Foundations in physics, mathematical methods, laboratory work and computational coursework."
+    }
+  ],
+  "training": [
+    {
+      "title": "School for Advanced Topics in Particle Physics",
+      "institution": "ICTS–TIFR",
+      "year": "2025"
+    },
+    {
+      "title": "Positive Geometry School",
+      "institution": "International Centre for Theoretical Sciences",
+      "year": "2025"
+    },
+    {
+      "title": "Winter School on Intense Laser Science",
+      "institution": "IIT Jodhpur",
+      "year": "2024"
+    },
+    {
+      "title": "Workshop on Quantum Computation",
+      "institution": "IIT Delhi",
+      "year": "2024"
+    }
+  ],
+  "skills": [
+    {
+      "title": "Scientific computing",
+      "items": [
+        "Python",
+        "NumPy",
+        "SciPy",
+        "MATLAB",
+        "Mathematica"
+      ]
+    },
+    {
+      "title": "Mathematical methods",
+      "items": [
+        "Linear algebra",
+        "Differential equations",
+        "Complex analysis",
+        "Numerical methods"
+      ]
+    },
+    {
+      "title": "Research tools",
+      "items": [
+        "LaTeX",
+        "Git",
+        "Literature review",
+        "Mathematical modelling",
+        "Qiskit"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/KrAzad0"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/kumar-azad-791012298/"
+    },
+    {
+      "label": "ResearchGate",
+      "url": "https://www.researchgate.net/profile/Kumar-Azad"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@thquantum-zero/"
+    }
+  ],
+  "cvUrl": null,
+  "updated": "2026-11-27"
+}
